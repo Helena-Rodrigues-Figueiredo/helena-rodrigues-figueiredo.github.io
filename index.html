@@ -7,7 +7,7 @@
     <title>Olá, eu sou a Helena!</title>
     <style>
       body {
-        background-color:mistyrose;
+        background-color: #aab6ec;
       }
 
       .picture{
@@ -21,18 +21,37 @@
 
       h1{
         text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       }
+
+      p, ul{
+        font-size: 18px;
+      }
+
+      .tamanhohab{
+        font-size: 20px;
+        font-weight:bolder;
+      }
+      
+      .cidade{
+        text-decoration: underline;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        color:rgb(196, 123, 162);
+
+      }
+
     </style>
   </head>
   <body>
-    <h1>Helena Rodrigues Figueiredo</h1>
    
     <img class="picture"
       id="minhaFoto"
       src="/Imagens/pp.jpeg"
       alt="uma foto minha"
-      width="400px"
+      width="350px"
     />
+    <h1>Helena Rodrigues Figueiredo</h1>
     <h3>Índice</h3>
    <ol>
      <li><a href="#sobremim">Sobre mim</a></li>
@@ -42,8 +61,8 @@
    </ol>
     <h2 id="sobremim">Sobre Mim</h2>
     <p>
-      Olá, meu nome é Helena, sou brasileira, tenho 30 anos e moro em Belo
-      Horizonte/MG.<br />
+      Olá, meu nome é Helena, sou brasileira, tenho 30 anos e moro em <span class=cidade>Belo
+      Horizonte/MG</span>.<br />
       Tenho formação em Engenharia Civil, mas sempre gostei muito da área de
       tecnologia, então resolvi fazer transição de carreira e me tornar uma <strong>Dev</strong>
       =)<br />
@@ -54,9 +73,9 @@
     <h2 id="habilidades">Habilidades que me orgulho</h2>
     <ul>
       <li>Determinação</li>
-      <li>Objetividade</li>
+      <li class="tamanhohab">Objetividade</li>
       <li>Empatia</li>
-      <li>Facilidade com Raciocínio Lógico</li>
+      <li class="tamanhohab">Facilidade com Raciocínio Lógico</li>
    
    </ul>
    <h2 id="outhab">Outras Habilidades</h2>
@@ -66,18 +85,13 @@
     <li>HTML e CSS</li>
    </ul>
    <h2 id="blogs">Alguns blogs legais</h2>
-<ul>
-<li>
+<p>
 <a href="https://www.codigofonte.com.br/tag/blog" target="_blank"
 >Codigo Fonte</a
->
-</li>
-<li>
+> <br>
 <a href="https://filipedeschamps.com.br/" target="_blank"
->Felipe Deschamps</a
->
-</li>
-</ul>
+>Felipe Deschamps</a>
+</p>
 <br /><br />
 <a href="#minhaFoto">Retorne para minha foto =)</a>
 
