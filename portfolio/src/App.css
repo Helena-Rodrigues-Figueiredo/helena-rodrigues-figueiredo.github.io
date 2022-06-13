@@ -1,13 +1,265 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    font-weight: 300;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+    scroll-behavior: smooth;
 }
+
+nav {
+    text-align: center;
+    position: fixed;
+    width: 100vw;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px 5px 20px;
+    margin: 15px 25px;
+    font-size: 18px;
+    border-radius: 10px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(255, 217, 0);
+    transition: ease 0.40s;
+}
+
+nav ul li a:hover:after {
+    width: 100%;
+}
+
+nav ul li a:hover {
+   cursor: pointer;
+}
+
+nav ul li a:target {
+    scroll-margin-top: .8em;
+  }
+
+#first-page {
+    height: 90vh;
+    background: linear-gradient(180deg, #000000, #242223, #313333, #313130);
+    background-size: 200% 200%;
+    position: relative;
+}
+
+.apresentation {
+    color: white;
+}
+
+.linkedin-github {
+    color: white;
+}
+
+#color {
+    position: absolute;
+    z-index: 0;
+    right: 10%;
+    height: 75vh;
+    opacity: 0.9;
+    top: 16.5%
+}
+
+#photo {
+    position: absolute;
+    right: 9%;
+    bottom: 0;
+    z-index: 1;
+    height: 78vh;
+}
+
+#apres-image {
+    display: flex;
+    padding-left: 10vh;
+}
+
+#apres-img {
+    margin-top: 13%;
+}
+
+#my-name {
+    font-weight: 200;
+}
+
+#name {
+    font-size: 12vh;
+    font-weight: 500;
+}
+
+#figueiredo {
+    font-weight: 900;
+    color: rgb(255, 217, 0);
+}
+
+#hi {
+    background-color: rgb(201, 71, 78);
+    padding: 0px 8px;
+    border-radius: 10px;
+}
+
+#trybe {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.linkedin-github {
+    text-decoration: none;
+    padding: 20px 50px;  
+    margin: 50px;
+    background-color: rgb(255, 217, 0);
+    border-radius: 100px;
+    font-weight: 700;
+    color: black;
+}
+
+.linkedin-github:hover {
+    background-color: rgb(201, 71, 78);
+    color: white;
+}
+
+#social {
+    text-align: center;
+    padding: 80px 0;
+}
+
+#about-me {
+    background-color: #303030;
+    height: 100vh;
+    display: flex;
+    color: white;
+}
+
+#codeGirl {
+    align-self: center;
+    margin-left: 9%;
+}
+
+#text {
+    text-align: center;
+    align-self: center;
+}
+
+#h1-about-me, #h1-skills, #h1-projects {
+    font-size: 3em;
+    font-weight: 600;
+}
+
+#h1-skills {
+    text-align: center;
+    padding: 3%;
+}
+
+#p-about-me {
+    padding: 5% 20%;
+    font-size: 1.5em;
+}
+
+#skills {
+    background-color: #2c2c2c;
+    height: 100vh;
+    color: white;
+}
+
+#skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+}
+
+.skill {
+    width: 50%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.p-skill {
+    width: 50%;
+    margin: auto;
+    margin: 0 auto;
+}
+
+#react {
+    color: rgb(97, 219, 251);
+}
+
+#html {
+    color: #e34c26;
+}
+
+#js {
+    color: #F0DB4F;
+}
+
+#css {
+    color: #264de4;
+}
+
+#projects {
+    background-color: #303030;
+    height: 100vh;
+}
+
+#h1-projects {
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+}
+
+#container-projects{
+    display: flex;
+    height: 83%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project {
+    width: 40vh;
+    height: 55vh;
+    box-shadow: 10px 5px 5px black;
+    background-color: #202020;
+}
+
+.project:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.img-project {
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.h2-project {
+    text-align: center;
+    font-weight: 600;
+    height: 10%;
+}
+
+.p-project {
+    text-align: center;
+    height: 30%;
+}
+
