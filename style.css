@@ -291,6 +291,10 @@
   }
 
   @media (max-width:480px) {
+    body { 
+        max-height: 100vh;
+     }
+
     nav ul li a {
         font-size: 12px;
         padding: 8px;
@@ -298,7 +302,7 @@
       }
 
       header.sticky {
-        padding: 3px 12% 8px 12%;
+        padding: 3px 5% 8px 5%;
         opacity: 0.9;
         box-shadow: 0px 0px 10px rgb(201, 71, 78);
     }
@@ -398,10 +402,6 @@
       }
       
       #container-projects {
-        /* display: flex;
-        height: 83%;
-        justify-content: space-evenly;
-        align-items: center; */
         flex-wrap: wrap;
       }
       
