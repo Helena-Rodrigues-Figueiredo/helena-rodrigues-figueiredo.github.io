@@ -17,6 +17,7 @@
     <!-----header-->
     <header>
       <nav>
+        <i class="fa-solid fa-bars" id="sandwich"></i>
         <ul>
           <li>
             <a href="#home">Home</a>
@@ -36,7 +37,7 @@
 
     <!-----home-->
     <section id="home">
-      <div id="apres-img">
+      <div class="apres-img">
         <h1 id="my-name"><span id="hi">Olá,</span> meu nome é</h1>
         <h1 id="name">Helena <span id="figueiredo">Figueiredo</span></h1>
         <h2 id="trybe">Estudante de Desenvolvimento Web na Trybe!</h2>
@@ -60,8 +61,8 @@
         </div>
       </div>
       <div id="images">
-        <img src="images/imagePortfolio.png" alt="texto" id="photo" />
-        <img src="images/color.png" alt="texto" id="color" />
+        <img src="images/imagePortfolio.png" alt="texto" class="photo" />
+        <img src="images/color.png" alt="texto" class="color" />
       </div>
 
       <!-----aboutMe-->
@@ -151,16 +152,20 @@
           <p class="p-project">Conhecimento utilizado</p>
         </div>
       </div>
-    </section>
 
-    <!-----footer-->
-    <footer></footer>
+      <!-----footer-->
+      <footer>
+        <p id="footer">Copyright © Helena Figueiredo 2022</p>
+    </footer>
+    </section>
 
     <!-----link to fontawesome-->
     <script
       src="https://kit.fontawesome.com/e4347590af.js"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
 
     <!-----link to js-->
     <script src="script.js"></script>
