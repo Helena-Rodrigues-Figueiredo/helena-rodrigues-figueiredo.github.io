@@ -343,14 +343,14 @@
       .color {
         position: absolute;
         z-index: 0;
-        right: 15%;
+        right: 5%;
         height: 50vh;
         top: 45%;
       }
       
       .photo {
         position: absolute;
-        right: 3%;
+        right: -5%;
         bottom: 0;
         z-index: 1;
         height: 60vh;
@@ -365,7 +365,7 @@
       
       #codeGirl {
         width: 360px;
-        margin: 10% 13%;
+        margin: 7% 13%;
       }
       
       #p-about-me {
@@ -392,8 +392,8 @@
       }
 
       .p-skill {
-        width: 70%;
-        font-size: 14px;
+        width: 80%;
+        font-size: 13px;
       }
       
       #react, #html, #js, #css {
