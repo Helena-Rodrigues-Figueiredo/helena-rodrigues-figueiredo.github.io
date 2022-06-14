@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfólio</title>
+  </head>
+  <body>
+    <!-----header-->
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about-me">Sobre Mim</a>
+          </li>
+          <li>
+            <a href="#skills">Habilidades</a>
+          </li>
+          <li>
+            <a href="#projects">Projetos</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-----home-->
+    <section id="home">
+      <div id="apres-img">
+        <h1 id="my-name"><span id="hi">Olá,</span> meu nome é</h1>
+        <h1 id="name">Helena <span id="figueiredo">Figueiredo</span></h1>
+        <h2 id="trybe">Estudante de Desenvolvimento Web na Trybe!</h2>
+        <div id="social">
+          <a
+            href="https://www.linkedin.com/in/helena-rodrigues-figueiredo-a32321ba/"
+            target="_blank"
+            class="linkedin-github"
+            rel="noreferrer"
+          >
+            Linkedin
+          </a>
+          <a
+            href="https://github.com/Helena-Rodrigues-Figueiredo"
+            class="linkedin-github"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github
+          </a>
+        </div>
+      </div>
+      <div id="images">
+        <img src="images/imagePortfolio.png" alt="texto" id="photo" />
+        <img src="images/color.png" alt="texto" id="color" />
+      </div>
+
+      <!-----aboutMe-->
+    </section>
+    <section id="about-me">
+      <img
+        src="images/codeGirl.png"
+        alt="imagem desenvolvedora"
+        id="codeGirl"
+      />
+      <div id="text">
+        <h1 id="h1-about-me">Sobre Mim</h1>
+        <p id="p-about-me">
+          Meu nome é Helena Rodrigues Figueiredo, sou formada em Engenharia
+          Civil e estou em transição de carreira para a área de Desenvolvimento
+          Web. Em fevereiro de 2022 comecei meu curso na Trybe, e a cada dia
+          estou mais apaixonada por esta área. Aprendi os fudamentos sobre CSS,
+          HTML e Javascript, e estou me aprofundando em Frontend utilizando o
+          React!
+        </p>
+      </div>
+    </section>
+
+    <!-----skills-->
+    <section id="skills">
+      <h1 id="h1-skills">Habilidades</h1>
+      <div id="skill-container">
+        <div class="skill">
+          <i class="fa-brands fa-css3-alt" id="css"></i>
+          <p class="p-skill">
+            O CSS é utilizado para estilizar um documento web. Aprendi toda a
+            base de CSS, e também como fazer sites responsivos com Media Queries
+            e um pouco sobre o Framework Bootstrap.
+          </p>
+        </div>
+        <div class="skill">
+          <i class="fa-brands fa-html5" id="html"></i>
+          <p class="p-skill">
+            O HTML é uma linguagem de marcação utilizada na construção de
+            páginas na Web. Aprendi como montar a estrutura de uma página com
+            HTML semântico.
+          </p>
+        </div>
+        <div class="skill">
+          <i class="fa-brands fa-js" id="js"></i>
+          <p class="p-skill">
+            O JavaScript é uma linguagem de programação muito utilizada hoje em
+            dia. Algumas das principais coisas que aprendi em JavaScript foram:
+            DOM, Eventos, Web Storage, ESC, Testes Unitários com Jest, HOF,
+            Fetch API e async/await.
+          </p>
+        </div>
+        <div class="skill">
+          <i class="fa-brands fa-react" id="react"></i>
+          <p class="p-skill">
+            O React é uma biblioteca JavaScript utilizada para contruir
+            interfaces de usuário. Estou estudando React e até o momento algumas
+            das coisas que aprendi foram: Componentes com Estado, Ciclo de Vida
+            dos Componentes, React Router, Testes Automatizados com RTL e Redux.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-----projects-->
+    <section id="projects">
+      <h1 id="h1-projects">Projetos</h1>
+      <div id="container-projects">
+        <div class="project">
+          <div class="img-project">Imagem do Projeto</div>
+          <h2 class="h2-project">Em breve</h2>
+          <p class="p-project">Conhecimento utilizado</p>
+        </div>
+        <div class="project">
+          <div class="img-project">Imagem do Projeto</div>
+          <h2 class="h2-project">Em breve</h2>
+          <p class="p-project">Conhecimento utilizado</p>
+        </div>
+        <div class="project">
+          <div class="img-project">Imagem do Projeto</div>
+          <h2 class="h2-project">Em breve</h2>
+          <p class="p-project">Conhecimento utilizado</p>
+        </div>
+        <div class="project">
+          <div class="img-project">Imagem do Projeto</div>
+          <h2 class="h2-project">Em breve</h2>
+          <p class="p-project">Conhecimento utilizado</p>
+        </div>
+      </div>
+    </section>
+
+    <!-----footer-->
+    <footer></footer>
+
+    <!-----link to fontawesome-->
+    <script
+      src="https://kit.fontawesome.com/e4347590af.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-----link to js-->
+    <script src="script.js"></script>
+  </body>
+</html>
