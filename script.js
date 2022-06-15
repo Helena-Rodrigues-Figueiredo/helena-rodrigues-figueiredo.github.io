@@ -1,12 +1,7 @@
-const header = document.querySelector('header');
 const scrollReveal = ScrollReveal ({
     distance: '50px',
     duration: 2700,
     reset: true
-});
-
-window.addEventListener('scroll', function() {
-    header.classList.toggle('sticky', this.window.scrollY > 5);
 });
 
 scrollReveal.reveal('.photo, .color', {delay:350, origin: 'right'});
