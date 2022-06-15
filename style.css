@@ -296,7 +296,7 @@
         margin: 2px;
       }
 
-      header.sticky {
+      header {
         padding: 3px 5% 8px 5%;
         opacity: 0.9;
         box-shadow: 0px 0px 10px rgb(201, 71, 78);
